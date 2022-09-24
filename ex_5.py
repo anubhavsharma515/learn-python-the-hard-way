@@ -6,6 +6,8 @@ my_eyes = 'Brown'
 my_teeth = 'White'
 my_hair = 'Black'
 
+# https://docs.python.org/3/library/stdtypes.html#old-string-formatting
+
 print("Let's talk about %s." % my_name)
 print("He's %d cm tall" % my_age)
 print("He's %d kgs heavy" % my_weight)
