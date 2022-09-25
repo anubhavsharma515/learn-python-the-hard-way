@@ -14,7 +14,7 @@ def gold_room(options):
     show_options(options)
 
     next = int(input("> "))
-    selected_option = options.get(next)
+    selected_option = options.get(next, None)
 
     print("You have decided to %s" % selected_option)
     if not(selected_option is None):
@@ -41,7 +41,7 @@ def bear_room(options):
     
     while True:
         next = int(input("> "))
-        selected_option = options.get(next)
+        selected_option = options.get(next, None)
 
         print("You have decided to %s" % selected_option)
 
@@ -64,7 +64,7 @@ def cthulhu_room(options):
     show_options(options)
 
     next = int(input("> "))
-    selected_option = options.get(next)
+    selected_option = options.get(next, None)
 
     print("You have decided to %s" % selected_option)
 
