@@ -85,7 +85,7 @@ def set_options(options_list):
     return options
 
 def show_options(options):
-    for option_number, option_name in zip(options.keys(), options.values()):
+    for option_number, option_name in options.items(): 
         print(option_number, ":", option_name)
 
 def dead(why):
